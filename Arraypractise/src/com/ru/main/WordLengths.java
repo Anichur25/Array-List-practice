@@ -83,7 +83,7 @@ public class WordLengths {
 	}
 
 
-	/*public int indexOfMax(int values[])
+	public int indexOfMax(int values[])
 	{
 		int max = values[0];
 
@@ -95,13 +95,13 @@ public class WordLengths {
 		return
 				max;
 
-	}*/
+	}
 
 
 	public static void main(String args[])
 	{
 		WordLengths ob = new WordLengths();
-		//ob.testCountWordLengths();
+		ob.testCountWordLengths();
 
 	}
 }
