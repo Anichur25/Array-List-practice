@@ -5,7 +5,7 @@ public class WordLengths {
 
 	int maxsofar = 31;
 
-	/*public void countWordLengths(FileResource resource,int counts[])
+	public void countWordLengths(FileResource resource,int counts[])
 	{
 
 
@@ -57,7 +57,7 @@ public class WordLengths {
 				}
 			}
 		}
-	}*/
+	}
 
 
 	/*public void testCountWordLengths()
