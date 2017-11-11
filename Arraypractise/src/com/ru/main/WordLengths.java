@@ -60,7 +60,7 @@ public class WordLengths {
 	}
 
 
-	/*public void testCountWordLengths()
+	public void testCountWordLengths()
 	{
 		FileResource fr = new FileResource();
 		int counts[] = new int[31];
@@ -80,7 +80,7 @@ public class WordLengths {
 		System.out.println("Most common word length is : " + indexOfMax(counts));
 		System.out.println("The maximum size of array is : " + maxsofar);
 
-	}*/
+	}
 
 
 	/*public int indexOfMax(int values[])
