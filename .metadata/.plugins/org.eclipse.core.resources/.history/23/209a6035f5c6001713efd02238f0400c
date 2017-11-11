@@ -1,0 +1,23 @@
+package com.ru.main;
+import java.io.*;
+import edu.duke.*;
+
+public class WordLengths {
+
+
+	public void countWordLengths(FileResource resource,int count[])
+	{
+		for(String a : resource.lines())
+		{
+			System.out.println(a);
+		}
+	}
+
+	public static void main(String args[])
+	{
+		FileResource fr = new FileResource();
+		int count[] = new int[31];
+		WordLengths ob = new WordLengths();
+		ob.countWordLengths(fr,count);
+	}
+}

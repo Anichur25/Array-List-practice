@@ -1,0 +1,43 @@
+package com.ru.main;
+import edu.duke.*;
+
+public class WordLengths {
+
+
+	public void countWordLengths(FileResource resource,int counts[])
+	{
+		for(String a : resource.lines())
+		{
+			String s ="";
+			
+			System.out.println(a);
+
+			for(char ch : a.toCharArray())
+			{
+				if(Character.isLetter(ch) || (ch == '-' && s.length()!=0))
+				{
+					s+=ch;
+					System.out.println(ch);
+				}
+
+				else
+				{
+					if(s.length()!=0)
+					{
+						System.out.println(s);
+					}
+					
+					s = "";
+				}
+			}
+		}
+	}
+
+	public static void main(String args[])
+	{
+		FileResource fr = new FileResource();
+		int counts[] = new int[31];
+		WordLengths ob = new WordLengths();
+		ob.countWordLengths(fr,counts);
+	}
+}
