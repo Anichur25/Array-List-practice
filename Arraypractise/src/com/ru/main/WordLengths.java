@@ -102,6 +102,7 @@ public class WordLengths {
 	{
 		WordLengths ob = new WordLengths();
 		ob.testCountWordLengths();
+		
 
 	}
 }
